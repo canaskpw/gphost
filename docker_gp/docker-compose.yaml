@@ -17,8 +17,3 @@ services:
     image: "mygreenplum"
     ports:
      - "8000:8000"
-  kafkahost:
-    hostname: kafkahost
-    image: "mykafkahost"
-    ports:
-     - "9092:9092"
